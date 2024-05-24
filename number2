@@ -1,0 +1,9 @@
+guess = int(guess)
+        
+        if guess < number_to_guess:
+            print("Too low!")
+        elif guess > number_to_guess:
+            print("Too high!")
+        else:
+            print(f"Congratulations! You guessed the number in {attempts} attempts.")
+            break
